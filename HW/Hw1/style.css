@@ -1,0 +1,28 @@
+.blue {
+	margin auto
+	color = blue;
+	width: 1000px;
+	vertical-align: middle;
+	position: relative;
+}
+
+
+.title {
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.header{
+	fontsize: 50px;
+}
+
+
+
+
+#intro {
+	font-weight: lighter;
+	color: rgb(15, 45, 128);
+
+}
+

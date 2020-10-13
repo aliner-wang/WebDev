@@ -1,0 +1,107 @@
+<!DOCTYPE html>  <!-- tells us this is html doc -->
+<html>
+<!-- Make sure to wrap everything in tags 
+
+	space with html code-->
+
+  <head>
+  	<!--"meta data" data about the data - data that user doesnt see 
+  		the tag on the tab of the browser
+  		everything the web browser needs to know-->
+  		<title>I'm cool</title> <!-- title tag names tab on browser -->
+  		<meta name="description" content="demo">
+  </head>
+  
+  <body>
+  	<!-- everything displayed on web page -->
+
+  	<h1>Some Text</h1>
+  	<h2>Some Text</h2>
+  	<h3 id="tomato">Some Text</h3>
+
+<!-- tags to indicate uniqueness 
+only 1 thing can have this id tag
+used to identify one element --> 
+
+
+  	<p class="ad">Some Text</p>
+
+
+  	<a href="https://webatberkeley.org">Click Me</a>
+
+  	<!-- anchor tag links things to page -->
+
+  	<!-- Ordered Lists and Unordered Lists -->
+  	<ol> 
+
+  		<!-- li: automatically counts our things for us
+  			AND makes everything into one unit -->
+  		<li> list Item 1</li>
+  		<li> list Item 2</li>
+  		<li> list Item 3</li>
+  	</ol>
+
+
+  	<ul>
+  		<!-- ul: orders in bullet points -->
+
+  		<li> list Item 1</li>
+  		<li> list Item 2</li>
+  		<li> list Item 3</li>
+  	</ul>
+
+	<!-- buttoms make things clickable 
+		JS/backend determines clickability-->
+  	<button>Click Me! </button>
+
+
+	<!-- loads images
+		src: link or path 
+		alt: description of image as alternative display if image fails to display 
+		load relatively: path in folder
+		lpad absolutely: link by URL-->
+  	<img src="./wdb.png" alt="This is an image">
+
+  	<br>
+
+  	<!-- making an image button 
+  		lesson: tags can be nested
+  		anchor tag only applies to what it's nesting - that's how all tags go. 
+  		So in this case, the button is every aspect of the image, not the border-->
+  	<button>
+	  	<a href="https://webatberkeley.org">
+	  		<img src="./wdb.png" alt="WDB stuff"></a>
+
+	  		</button>
+
+	  <!-- div!! 
+
+
+	  	helps organize and group things into one unit 
+	  	helpful in css when we want to treat elements as one unit 
+	  	primarily for CSS 
+
+	  -->
+	<div> 
+	<button>
+	  	<a href="https://webatberkeley.org">
+	  		<img src="./wdb.png" alt="WDB stuff"></a>
+
+	  		</button></div>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
