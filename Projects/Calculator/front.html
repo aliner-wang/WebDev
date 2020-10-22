@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <meta charset="UTF-8">
+
+    <title>Calculator</title>
+</head>
+<body>
+<script src = "Calculator.js"></script>
+<div class = "calculator">
+
+
+   <div class = "row display">
+       <h1 id = "value">0</h1>
+    </div>
+
+
+    <div class = row>
+        <button class="clear buttons" onclick="clear_everything()" id = clear>C</button>
+        <button class="quarter_buttons buttons" onclick="backspace()" id = "backspace">←</button>
+        <button class="quarter_buttons buttons functions" onclick = "div()" id = "divide">÷</button>
+
+    </div>
+
+
+    <div class = row>
+        <button class="quarter_buttons buttons" onclick="update('7')" id = "seven">7</button>
+        <button class="quarter_buttons buttons" onclick="update('8')" id = "eight">8</button>
+        <button class="quarter_buttons buttons" onclick="update('9')" id = "nine">9</button>
+        <button class="quarter_buttons buttons functions" onclick = "mul()" id = "times">×</button>
+
+    </div>
+
+
+    <div class = row>
+        <button class="quarter_buttons buttons" onclick="update('4')" id = "four">4</button>
+        <button class="quarter_buttons buttons" onclick="update('5')" id = "five">5</button>
+        <button class="quarter_buttons buttons" onclick="update('6')" id  = "six">6</button>
+        <button class="quarter_buttons buttons functions" onclick = "minus()" id = "minus">−</button>
+    </div>
+
+
+    <div class = row>
+        <button class="quarter_buttons buttons" onclick="update('1')" id = "one">1</button>
+        <button class="quarter_buttons buttons" onclick="update('2')" id = "two">2</button>
+        <button class="quarter_buttons buttons" onclick="update('3')" id = "three">3</button>
+        <button class="quarter_buttons buttons functions" onclick = "add()" id = "plus">+</button>
+    </div>
+
+
+    <div class = row>
+        <button class="zero buttons" onclick="update('0')" id = "zero">0</button>
+        <button class="quarter_buttons buttons functions" onclick = "solve()" id = "equal">=</button>
+    </div>
+
+</div>
+
+</body>
+</html>

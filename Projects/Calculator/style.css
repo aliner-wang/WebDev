@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.calculator {
+    height: 560px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+
+.row {
+    height:16.67%;
+    display: flex;
+
+}
+.buttons {
+    height: 100%;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.quarter_buttons {
+    width: 25%;
+    height: 100%;
+    font-size: 30px;
+    border: 1px solid black;
+
+}
+.functions {
+    background: orange;
+    color: white;
+}
+.display {
+    background: black;
+
+}
+
+#value {
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+
+
+.clear {
+    width: 50%
+}
+
+.zero {
+    width: 75%
+}
+
+
+

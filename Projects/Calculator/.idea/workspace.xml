@@ -15,11 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="ProjectId" id="1inkMxqcvW8j0rFbBvImyQ6qRLb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +25,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,12 +38,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602550699239</updated>
-      <workItem from="1602550700345" duration="999000" />
-      <workItem from="1603182033644" duration="23000" />
+      <workItem from="1602550700345" duration="780000" />
+      <workItem from="1603182075226" duration="5137000" />
+      <workItem from="1603349004175" duration="1490000" />
+      <workItem from="1603351250311" duration="7403000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="148" y="-1081" key="SettingsEditor" timestamp="1603182293764">
+      <screen x="0" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="148" y="-1081" key="SettingsEditor/0.0.1440.900/0.-1440.2560.1440@0.-1440.2560.1440" timestamp="1603182293764" />
   </component>
 </project>
