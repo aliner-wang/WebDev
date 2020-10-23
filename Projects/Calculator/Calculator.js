@@ -28,6 +28,7 @@ function backspace() {
 /* does */
 function solve() {
     if (operation != "") {
+
         if (operation == "add") {
             var current = parseInt(document.getElementById("value").innerText);
             var output = current + previous;
@@ -40,7 +41,7 @@ function solve() {
 
         } else if (operation == "div") {
             var current = parseInt(document.getElementById("value").innerText);
-            var output = current/previous;
+            var output = previous/current;
             document.getElementById("value").innerHTML = output.toString();
 
         } else if (operation == "mul") {
@@ -48,6 +49,7 @@ function solve() {
             var output = current * previous;
             document.getElementById("value").innerHTML = output.toString();
         }
+        operation = "";
     }
 
 }
